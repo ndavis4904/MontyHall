@@ -1,0 +1,20 @@
+Package: MontyHall
+Title: Monty Hall Problem and its Variants
+Version: 1.1.1.1000
+Authors@R: 
+    person(given = "Nicholas",
+           family = "Davis",
+           role = c("aut", "cre"),
+           email = "nadavi13@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package runs simulations based on the monty hall problem. The functions will perform a single
+		simulation of the original problem, multiple simulations of the original problem, and the same with
+		functions that will allow the user to define the amount of goats and cars in both a single observation
+		and multiple.
+Depends:
+    dplyr
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
